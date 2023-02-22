@@ -2,7 +2,7 @@ const apiKey = "6MEHfoXaFzCyYoE4t5uX04OcEuMjqP1YQpnLVZfBpOA";
 const apiUrl = `https://api.unsplash.com/search/photos?client_id=${apiKey}&query=dress`; //get imgs of "dress"
 
 const fetchImages = async () => {
-    const response = await axios.get(`${apiUrl}`);
+    const response = await axios.get(apiUrl);
     const images = response.data.results;
     return images;
 }
