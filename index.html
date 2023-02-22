@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6efae68318.js" crossorigin="anonymous"></script>
+    <link href="css/slick-theme.css" rel="stylesheet" type="text/css">
+    <link href="css/slick.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <p id="header1">free shipping on orders over $100</p>
+
+        <div id="header2" class="wrapper">
+            <div class="logo"><a href="#">20/20</a>
+                <div id="search-box">
+                    <form method="get" action="#" target="_top" accept-charset="ENG">
+                        <input type="text" maxlength="80" name="s-item" placeholder="denim">
+                        <button type="submit" value="search">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+                <div id="login">
+                    <a href="#">login</a>
+                </div>
+                <div id="shopping-cart" class="cart">
+                    <div class="cart_cnt hidden">
+                        <span id="js_cart_cnt"></span>
+                    </div>
+                  <a class="cart_icon" href="confirm.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </a>
+                </div>
+            </div>
+        </div>
+        <nav class="header3 wrapper pc">
+            <ul>
+                <li><a href="#">TOPS</a></li>
+                <li><a href="#">BOTTOMS</a></li>
+                <li><a href="#">ONEPIECE</a></li>
+                <li><a href="#">OUTER</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="top-images" class="wrapper">
+            <ul class="slider">
+                <li>
+                  <a href="#"><img src="./images/slider-sale.jpg" alt=""></a>
+                </li>
+                <li>
+                  <a href=""><img src="./images/slider-new.jpg" alt=""></a>
+                </li>
+                <li>
+                  <a href=""><img src="./images/slider-jacket.jpg" alt=""></a>
+                </li>
+                <li>
+                  <a href=""><img src="./images/slider-men's.jpg" alt=""></a>
+                </li>
+                <li>
+                  <a href=""><img src="./images/slider-unisex.jpg" alt=""></a>
+                </li>
+            </ul>
+        </div>
+        <br>
+        <nav id="main-menu" class="wrapper">
+            <ul>
+                <li><button class="menu1" onclick="location.href='#coupon'">COUPON</button></li>
+                <li><button class="menu2" onclick="location.href='#new'">LIMITED-TIME SALE</button></li>
+                <li><button class="menu3" onclick="location.href='#trend'">NEW ARRIVALS</button></li>
+                <li><button class="menu4" onclick="location.href='#best'">BEST SELLERS</button></li>
+            </ul>
+        </nav>
+        <br>
+        <div id="main-contents">
+            <div id="coupon" class="coupon-size section section-odd">
+                <h2 class="section-title">COUPON</h2>
+                <ul class="wrapper">
+                    <li><a href="#"><img src="./images/coupon.jpg" alt="coupon"></a></li>
+                </ul>
+            </div>
+            <div id="new" class="section wrapper">
+                <h2 class="section-title">LIMITED-TIME SALE</h2>
+                <h3 >＼＼ Only 1 Item per Customer! ／／</h3>
+                <ul id="js_section-ul" class="section-ul">
+                </ul>
+                <button class="btn-more" onclick="location.href='#'">MORE</button>
+            </div>
+            <div id="trend" class="section section-odd">
+                <div class="wrapper">
+                    <h2 class="section-title">NEW ITEMS</h2>
+                    <ul class="section-ul">
+                        <li class="section-li"><a href="#"><img class="item-panel" src="https://placehold.jp/234x340.png" alt="item"></a></li>
+                        <li class="section-li"><a href="#"><img class="item-panel" src="https://placehold.jp/234x340.png" alt="item"></a></li>
+                        <li class="section-li"><a href="#"><img class="item-panel" src="https://placehold.jp/234x340.png" alt="item"></a></li>
+                        <li class="section-li"><a href="#"><img class="item-panel" src="https://placehold.jp/234x340.png" alt="item"></a></li>
+                        <li class="section-li"><a href="#"><img class="item-panel" src="https://placehold.jp/234x340.png" alt="item"></a></li>
+                        <li class="section-li"><a href="#"><img class="item-panel" src="https://placehold.jp/234x340.png" alt="item"></a></li>
+                        <li class="section-li"><a href="#"><img class="item-panel" src="https://placehold.jp/234x340.png" alt="item"></a></li>
+                        <li class="section-li"><a href="#"><img class="item-panel" src="https://placehold.jp/234x340.png" alt="item"></a></li>
+                    </ul>
+                    <button class="btn-more" onclick="location.href='#'">MORE</button>
+                </div>
+            </div>
+            <div id="best" class="section wrapper">
+                <h2 class="section-title">BEST SELLERS</h2>
+                <ul class="section-ul">
+                    <li class="section-li"><a href="#"><img class="item-panel" src="https://placehold.jp/234x340.png" alt="item"></a></li>
+                    <li class="section-li"><a href="#"><img class="item-panel" src="https://placehold.jp/234x340.png" alt="item"></a></li>
+                    <li class="section-li"><a href="#"><img class="item-panel" src="https://placehold.jp/234x340.png" alt="item"></a></li>
+                    <li class="section-li"><a href="#"><img class="item-panel" src="https://placehold.jp/234x340.png" alt="item"></a></li>
+                    <li class="section-li"><a href="#"><img class="item-panel" src="https://placehold.jp/234x340.png" alt="item"></a></li>
+                    <li class="section-li"><a href="#"><img class="item-panel" src="https://placehold.jp/234x340.png" alt="item"></a></li>
+                    <li class="section-li"><a href="#"><img class="item-panel" src="https://placehold.jp/234x340.png" alt="item"></a></li>
+                    <li class="section-li"><a href="#"><img class="item-panel" src="https://placehold.jp/234x340.png" alt="item"></a></li>
+                </ul>
+                <button class="btn-more" onclick="location.href='#'">MORE</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <nav id="footer-nav" class="wrapper">
+            <h1>20/20</h1>
+            <ul>
+                <li><a href="#">Help & FAQ's</a></li>
+                <li><a href="#">Shipping & Delivery</a></li>
+                <li><a href="#">Return Policy</a></li>
+                <li><a href="#">Company Info</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <div class="wrapper">
+            <p>&copy;Copyright 2022. 20/20 All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+    <script type="text/javascript" src="./js/slick.min.js"></script>
+    <script type="text/javascript" src="./js/api.js"></script>
+
+    <!--▽▽ SLIDER ▽▽-->
+    <script>
+        $('.slider').slick({
+            dots: true,
+            autoplay:true,
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 520,
+                    settings: {
+                        slidesToShow: 1,
+                    },
+                },
+            ],
+        });
+    </script>
+    <!--△△ SLIDER △△-->
+</body>
+</html>
